@@ -77,7 +77,3 @@ def edit(pid):
         # TODO Handle sold
         return redirect(url_for("pets.pet_info", pid=pid), 302)
         
-    
-
-
-
